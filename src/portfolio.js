@@ -262,20 +262,19 @@ const bigProjects = {
       image: require("./assets/images/filmr8r-logo.jpeg"),
       projectName: "FilmR8R",
       projectDesc:
-        "Lights, camera, action! My first web development project is a blockbuster app for rating movies. Built with Node.js for the backend, MongoDB and Mongoose for a seamless database experience, and styled with Bootstrap for that box-office-worthy design. It's a perfect blend of tech and entertainment!",
+        "Lights, camera, action! FilmR8R is my first web project, a fun app for rating movies. It's built with Node.js for the backend, MongoDB and Mongoose for the database, and styled with Bootstrap for a polished look. A perfect mix of tech and entertainment!",
       footerLink: [
         {
           name: "Visit FilmR8R",
           url: "https://protected-falls-09261.herokuapp.com/movies"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/chatter-logo.jpeg"),
       projectName: "Chatter",
       projectDesc:
-        "Welcome to Chatter: a sleek, full-stack app where connecting and chatting is effortless! Built using the MERN stack—MongoDB, Express, React, and Node.js—Chatter also integrates Google authentication for seamless sign-ins and account connection. It’s social interaction, powered by cutting-edge tech!",
+        "Dive into Chatter: a sleek, full-stack app for effortless chatting! Powered by the MERN stack—MongoDB, Express, React, and Node.js—it integrates Google authentication for easy sign-ins and secure account connections. Social interaction redefined!",
       footerLink: [
         {
           name: "Visit Chatter",
@@ -287,7 +286,7 @@ const bigProjects = {
       image: require("./assets/images/weather-main.jpg"),
       projectName: "WeatherScope",
       projectDesc:
-        "WeatherScope is a minimalist weather app built with React class components to challenge myself. It fetches real-time weather using WeatherAPI and geolocation, displaying current conditions, a 3-day forecast, and hourly updates, all without third-party integrations. 🌦️",
+        "WeatherScope is a minimalist weather app made with React class components. It fetches real-time weather using WeatherAPI, offering current conditions, a 3-day forecast, and hourly updates—all without third-party integrations. 🌦️",
       footerLink: [
         {
           name: "Visit WeatherScope",
@@ -299,7 +298,7 @@ const bigProjects = {
       image: require("./assets/images/snapshot-logo.jpeg"),
       projectName: "SnapShot",
       projectDesc:
-        "SnapShot is a free image sharing platform where users can easily upload, save, and share photos. With simple sign-up and a user-friendly interface, you can quickly store and share JPEGs, PNGs, and GIFs. Powered by MongoDB and GridFS, SnapShot ensures fast uploads and a smooth experience. Join today and connect with the community! 📸",
+        "SnapShot is a free image-sharing platform for saving and sharing photos. With easy sign-up and an intuitive interface, it supports JPEGs, PNGs, and GIFs. Powered by MongoDB and GridFS, it ensures fast uploads and a seamless experience. Join today! 📸",
       footerLink: [
         {
           name: "Visit SnapShot",
@@ -310,6 +309,7 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
