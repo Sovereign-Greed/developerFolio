@@ -23,7 +23,7 @@ const greeting = {
   username: "M. Raza",
   title: "HI I'M RAZA, A WEB DEVELOPER LIVING NEAR NYC",
   subTitle: emoji(
-    "An Experienced Full Stack Web Developer specializing in building scalable web applications, optimizing cloud infrastructure, and leading development teams to deliver innovative solutions."
+    "An Experienced Lead Full Stack Web Developer specializing in building scalable web applications, optimizing cloud infrastructure, and leading development teams to deliver innovative solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -179,7 +179,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -187,7 +187,7 @@ const techStack = {
     },
     {
       Stack: "Dev Ops",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -203,17 +203,17 @@ const workExperiences = {
       company: "Logie Inc.",
       companylogo: require("./assets/images/logieLogo.png"),
       date: "May 2022 - Present",
-      desc: "Oversee a team of 10+ developers, driving the migration to GraphQL, integrating AI-powered virtual assistants, and deploying scalable cloud solutions on AWS.",
+      desc: "I lead a global team of 10+ developers, architecting large-scale systems, integrating AI solutions, and deploying scalable cloud infrastructure on AWS and Azure.",
       descBullets: [
-        "Team Leader, Managing over 10 web developers",
-        "Developed a Node.js Backend Server and optimized prisma queries and mutations to improve performance",
-        "Migrated a Legacy Backend REST API application to GraphQL with an automatic playground and documentation",
-        "Integrated Open AI to provide a Virtual Assistant for our users to improve content creation and SEO",
-        "Restructured a Web Application for a modernized and mobile friendly interface using Material UI",
-        "Deployed multiple services using AWS EC2 and hosted a web app with automatic deployments on Amplify",
-        "Hosted a PostgreSQL database on AWS RDS and implemented automatic back ups and monitoring",
-        "Optimized EC2 and RDS services by using AWS CloudWatch to track historical logs and isolate slow queries and mutations",
-        "Integrated Paapi API with AWS Lambda to obtain thousands of product data rapidly"
+        "Led a global team of 10+ web developers across diverse languages and cultures",
+        "Developed a Node.js backend server, optimized Prisma queries and mutations, and used AWS CloudWatch for performance monitoring",
+        "Migrated a legacy REST API to GraphQL, adding an automatic playground, documentation, and improving CI/CD pipelines",
+        "Integrated OpenAI to deliver a Virtual Assistant, enhancing content creation and SEO for users",
+        "Deployed services on AWS EC2, configured load balancers for scalability, and optimized performance",
+        "Optimized AWS EC2 and RDS performance by leveraging AWS CloudWatch to monitor logs and identify slow queries and mutations",
+        "Deployed and optimized collector servers on Azure VMs, using auto-scaling and load balancing for improved performance",
+        "Hosted a PostgreSQL database on AWS RDS, implementing read replicas and automatic backups for enhanced performance",
+        "Optimized performance with Redis caching for user credentials, permissions, and dashboard summaries, improving scalability"
       ]
     },
     {
@@ -223,10 +223,11 @@ const workExperiences = {
       date: "April 2021 – April 2022",
       desc: "Created seamless onboarding workflows, optimized data delivery through API integration, and built tools like a thumbnail generator to enhance user experience.",
       descBullets: [
-        "Developed a React JS application to onboard new users with a simple and effective registration process",
-        "Integrated internal Rest APIs with Frontend to deliver data in an optimal user friendly interface",
-        "Built a robust Thumbnail Generator using BannerBear API, Webhooks, and Redis",
-        "Implemented a multi level feature using Brightdata, Redis, Cron Services, and Webhooks to deliver vital data"
+        "Developed an MVP React.js app with JWT authentication, an intuitive registration process, and Twilio-based 2FA for enhanced security",
+        "Deployed a web application on AWS Amplify, restructuring it with a modern, mobile-friendly interface using Material UI",
+        "Developed an event-driven Thumbnail Generator using BannerBear API, AWS S3, Webhooks, and Redis for efficient image processing",
+        "Built an event-driven, multi-level feature with Brightdata, Redis Pub/Sub, Cron services, and Webhooks to deliver critical data",
+        "Engineered a multi-level system for admins to charge brands via Stripe and distribute payments through Mercury API"
       ]
     },
     {
@@ -236,9 +237,9 @@ const workExperiences = {
       date: "Feburary 2018 - March 2021",
       desc: "Specialized in designing and upgrading web applications, resolving technical challenges, and implementing custom third-party API integrations.",
       descBullets: [
-        "Designed and updated web applications",
-        "Third Party API integrations",
-        "Analyzed Issues and implemented web solutions"
+        "Developed and maintained scalable APIs using Python and Node.js, optimizing performance",
+        "Integrated third-party APIs like Stripe (payments) and Google services (OAuth, Maps) to enhance functionality and UX",
+        "Implemented web solutions, enhancing mobile responsiveness with CSS (Flexbox, Grid), Bootstrap, and Tailwind"
       ]
     }
   ]
