@@ -205,15 +205,15 @@ const workExperiences = {
       date: "May 2022 - Present",
       desc: "I lead a global team of 10+ developers, architecting large-scale systems, integrating AI solutions, and deploying scalable cloud infrastructure on AWS and Azure.",
       descBullets: [
-        "Led a global team of 10+ web developers across diverse languages and cultures",
-        "Developed a Node.js backend server, optimized Prisma queries and mutations, and used AWS CloudWatch for performance monitoring",
-        "Migrated a legacy REST API to GraphQL, adding an automatic playground, documentation, and improving CI/CD pipelines",
-        "Integrated OpenAI to deliver a Virtual Assistant, enhancing content creation and SEO for users",
-        "Deployed services on AWS EC2, configured load balancers for scalability, and optimized performance",
-        "Optimized AWS EC2 and RDS performance by leveraging AWS CloudWatch to monitor logs and identify slow queries and mutations",
-        "Deployed and optimized collector servers on Azure VMs, using auto-scaling and load balancing for improved performance",
-        "Hosted a PostgreSQL database on AWS RDS, implementing read replicas and automatic backups for enhanced performance",
-        "Optimized performance with Redis caching for user credentials, permissions, and dashboard summaries, improving scalability"
+        // "Led a global team of 10+ engineers, coordinating development across multiple time zones, languages, and cultures.",
+        "Integrated OpenAI to build an AI-powered Virtual Assistant, improving content creation, SEO workflows, and overall user productivity.",
+        "Built data processing pipelines using PA-API, AWS Lambda, and Python to fetch and analyze thousands of product records in real time.",
+        "Managed PostgreSQL DB on AWS RDS, adding read replicas, automated backups, and performance optimizations for high-traffic workloads.",
+        "Upgraded the frontend by integrating Next.js and React Query, improving routing, SEO, and load times using intelligent client-side caching.",
+        "Built and optimized a scalable Node.js backend, improving Prisma queries, adding Redis caching, and using AWS CloudWatch to identify bottlenecks across EC2, RDS, and distributed services.",
+        "Implemented high-availability infrastructure on AWS and Azure, deploying microservices on EC2 and Azure VMs with load balancing, auto-scaling, and distributed collector servers.",
+        "Designed and developed an end-to-end order and billing system, including invoice generation, Stripe transaction handling, shipment tracking, and a product purchase flow.",
+        "Migrated a legacy REST API to GraphQL, adding automatic documentation/playground, improving schema design, and strengthening CI/CD pipelines for faster, safer deployments."
       ]
     },
     {
@@ -223,11 +223,12 @@ const workExperiences = {
       date: "April 2021 – April 2022",
       desc: "Created seamless onboarding workflows, optimized data delivery through API integration, and built tools like a thumbnail generator to enhance user experience.",
       descBullets: [
-        "Developed an MVP React.js app with JWT authentication, an intuitive registration process, and Twilio-based 2FA for enhanced security",
-        "Deployed a web application on AWS Amplify, restructuring it with a modern, mobile-friendly interface using Material UI",
-        "Developed an event-driven Thumbnail Generator using BannerBear API, AWS S3, Webhooks, and Redis for efficient image processing",
-        "Built an event-driven, multi-level feature with Brightdata, Redis Pub/Sub, Cron services, and Webhooks to deliver critical data",
-        "Engineered a multi-level system for admins to charge brands via Stripe and distribute payments through Mercury API"
+        "Built an MVP React.js app with JWT auth, an intuitive onboarding flow, and Twilio-based 2FA for enhanced security.",
+        "Deployed and redesigned the web app on AWS Amplify, using Material UI, CI/CD with QA env, and preview builds for PR testing.",
+        "Developed and integrated REST APIs with Node.js and Express, powering a high-performance, responsive frontend.",
+        "Engineered an admin billing system using Stripe and Mercury API for brand charging and automated payouts.",
+        "Developed an event-driven Thumbnail Generator using BannerBear, AWS S3, Webhooks, and Redis for efficient image automation.",
+        "Engineered a multi-level data pipeline using BrightData, Redis Pub/Sub, and Cron, enabling real-time delivery of high-value, processed data."
       ]
     },
     {
@@ -237,9 +238,9 @@ const workExperiences = {
       date: "Feburary 2018 - March 2021",
       desc: "Specialized in designing and upgrading web applications, resolving technical challenges, and implementing custom third-party API integrations.",
       descBullets: [
-        "Developed and maintained scalable APIs using Python and Node.js, optimizing performance",
-        "Integrated third-party APIs like Stripe (payments) and Google services (OAuth, Maps) to enhance functionality and UX",
-        "Implemented web solutions, enhancing mobile responsiveness with CSS (Flexbox, Grid), Bootstrap, and Tailwind"
+        "Developed and maintained scalable APIs with Python and Node.js, optimizing performance and reliability.",
+        "Integrated third-party services including Stripe (payments) and Google APIs (OAuth, Maps) to enhance functionality and UX.",
+        "Built responsive, full-stack web solutions with CSS (Flexbox, Grid), Bootstrap, Tailwind, and cloud integrations for multiple clients."
       ]
     }
   ]
