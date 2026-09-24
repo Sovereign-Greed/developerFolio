@@ -233,7 +233,7 @@ const workExperiences = {
     },
     {
       role: "Freelance Web Developer",
-      company: "Self Employed",
+      company: "Fiverr Independent Contracter",
       companylogo: require("./assets/images/freelanceLogo.png"),
       date: "Feburary 2018 - March 2021",
       desc: "Specialized in designing and upgrading web applications, resolving technical challenges, and implementing custom third-party API integrations.",
@@ -261,7 +261,19 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I CREATED!",
   projects: [
     {
-      image: require("./assets/images/filmr8r-logo.jpeg"),
+      image: require("./assets/images/optcg-logo-m.jpg"),
+      projectName: "One Piece TCG Tracker",
+      projectDesc:
+        "Track your One Piece TCG collection without the spreadsheet chaos. OPTCG Tracker lets you browse the full card catalog, save My Cards and wishlists, build decks, and even start as a guest before signing in. Built with Next.js, Prisma, Neon, and Better Auth. A collector's toolkit with a clean, modern UI.",
+      footerLink: [
+        {
+          name: "Visit OPTCG Tracker",
+          url: "https://optcg-app-tau.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/filmr8r-logo-m.jpeg"),
       projectName: "FilmR8R",
       projectDesc:
         "Lights, camera, action! FilmR8R is my first web project, a fun app for rating movies. It's built with Node.js for the backend, MongoDB and Mongoose for the database, and styled with Bootstrap for a polished look. A perfect mix of tech and entertainment!",
@@ -273,7 +285,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/chatter-logo.jpeg"),
+      image: require("./assets/images/chatter-logo-m.jpeg"),
       projectName: "Chatter",
       projectDesc:
         "Dive into Chatter: a sleek, full-stack app for effortless chatting! Powered by the MERN stack—MongoDB, Express, React, and Node.js—it integrates Google authentication for easy sign-ins and secure account connections. Social interaction redefined!",
@@ -285,7 +297,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/weather-main.jpg"),
+      image: require("./assets/images/weather-main-m.jpg"),
       projectName: "WeatherScope",
       projectDesc:
         "WeatherScope is a minimalist weather app made with React class components. It fetches real-time weather using WeatherAPI, offering current conditions, a 3-day forecast, and hourly updates—all without third-party integrations. 🌦️",
@@ -297,7 +309,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/snapshot-logo.jpeg"),
+      image: require("./assets/images/snapshot-logo-m.jpeg"),
       projectName: "SnapShot",
       projectDesc:
         "SnapShot is a free image-sharing platform for saving and sharing photos. With easy sign-up and an intuitive interface, it supports JPEGs, PNGs, and GIFs. Powered by MongoDB and GridFS, it ensures fast uploads and a seamless experience. Join today! 📸",
