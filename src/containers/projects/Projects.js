@@ -48,16 +48,11 @@ export default function Projects() {
         <div className="main" id="opensource">
           <h1 className="project-title">Open Source Projects</h1>
           <div className="repo-cards-div-main">
-            {repo.map((v, i) => {
-              if (!v) {
-                console.error(
-                  `Github Object for repository number : ${i} is undefined`
-                );
-              }
-              return (
+            {repo
+              .filter(v => v && v.node)
+              .map(v => (
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
-            })}
+              ))}
           </div>
           <Button
             text={"More Projects"}

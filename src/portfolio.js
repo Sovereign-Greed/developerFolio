@@ -102,16 +102,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "devicon-typescript-plain"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "devicon-nextjs-plain"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
+      skillName: "Express",
+      fontAwesomeClassname: "devicon-express-original"
+    },
+    {
+      skillName: "Fastify",
+      fontAwesomeClassname: "devicon-fastify-plain"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "devicon-django-plain"
     },
     // {
     //   skillName: "swift",
@@ -124,6 +144,42 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "devicon-postgresql-plain"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "devicon-mongodb-plain"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "devicon-redis-plain"
+    },
+    {
+      skillName: "Prisma",
+      fontAwesomeClassname: "devicon-prisma-original"
+    },
+    {
+      skillName: "GraphQL",
+      fontAwesomeClassname: "devicon-graphql-plain"
+    },
+    {
+      skillName: "Material UI",
+      fontAwesomeClassname: "devicon-materialui-plain"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "devicon-bootstrap-plain"
+    },
+    {
+      skillName: "Tailwind",
+      fontAwesomeClassname: "devicon-tailwindcss-plain"
+    },
+    {
+      skillName: "Playwright",
+      fontAwesomeClassname: "devicon-playwright-plain"
     },
     {
       skillName: "aws",
@@ -140,6 +196,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Vercel",
+      fontAwesomeClassname: "devicon-vercel-line"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "devicon-git-plain"
+    },
+    {
+      skillName: "Stripe",
+      fontAwesomeClassname: "fab fa-stripe"
+    },
+    {
+      skillName: "Twilio",
+      fontAwesomeClassname: "devicon-twilio-original"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -264,7 +336,7 @@ const bigProjects = {
       image: require("./assets/images/optcg-logo-m.jpg"),
       projectName: "One Piece TCG Tracker",
       projectDesc:
-        "Track your One Piece TCG collection without the spreadsheet chaos. OPTCG Tracker lets you browse the full card catalog, save My Cards and wishlists, build decks, and even start as a guest before signing in. Built with Next.js, Prisma, Neon, and Better Auth. A collector's toolkit with a clean, modern UI.",
+        "Track your One Piece TCG collection without the spreadsheet chaos. OPTCG Tracker lets you browse the full card catalog, save My Cards and wishlists, build decks, and start as a guest before signing in. Built with Next.js, Prisma, Neon, and Better Auth.",
       footerLink: [
         {
           name: "Visit OPTCG Tracker",
@@ -276,7 +348,7 @@ const bigProjects = {
       image: require("./assets/images/filmr8r-logo-m.jpeg"),
       projectName: "FilmR8R",
       projectDesc:
-        "Lights, camera, action! FilmR8R is my first web project, a fun app for rating movies. It's built with Node.js for the backend, MongoDB and Mongoose for the database, and styled with Bootstrap for a polished look. A perfect mix of tech and entertainment!",
+        "Rate movies without a pile of notes. FilmR8R lets you browse titles and leave ratings in one place. My first full-stack project, built with Node.js, MongoDB, Mongoose, and Bootstrap.",
       footerLink: [
         {
           name: "Visit FilmR8R",
@@ -288,7 +360,7 @@ const bigProjects = {
       image: require("./assets/images/chatter-logo-m.jpeg"),
       projectName: "Chatter",
       projectDesc:
-        "Dive into Chatter: a sleek, full-stack app for effortless chatting! Powered by the MERN stack—MongoDB, Express, React, and Node.js—it integrates Google authentication for easy sign-ins and secure account connections. Social interaction redefined!",
+        "Message people without another password to remember. Chatter lets you sign in with Google and chat in realtime. Built with MongoDB, Express, React, and Node.",
       footerLink: [
         {
           name: "Visit Chatter",
@@ -300,7 +372,7 @@ const bigProjects = {
       image: require("./assets/images/weather-main-m.jpg"),
       projectName: "WeatherScope",
       projectDesc:
-        "WeatherScope is a minimalist weather app made with React class components. It fetches real-time weather using WeatherAPI, offering current conditions, a 3-day forecast, and hourly updates—all without third-party integrations. 🌦️",
+        "Check the forecast without a crowded dashboard. WeatherScope shows current conditions, a 3-day forecast, and hourly updates from WeatherAPI. Built with React class components and no UI library.",
       footerLink: [
         {
           name: "Visit WeatherScope",
@@ -312,7 +384,7 @@ const bigProjects = {
       image: require("./assets/images/snapshot-logo-m.jpeg"),
       projectName: "SnapShot",
       projectDesc:
-        "SnapShot is a free image-sharing platform for saving and sharing photos. With easy sign-up and an intuitive interface, it supports JPEGs, PNGs, and GIFs. Powered by MongoDB and GridFS, it ensures fast uploads and a seamless experience. Join today! 📸",
+        "Share photos without a full social network. SnapShot lets you sign up and upload JPEG, PNG, and GIF images. Built with MongoDB and GridFS so uploads stay fast as the library grows.",
       footerLink: [
         {
           name: "Visit SnapShot",
